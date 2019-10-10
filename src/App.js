@@ -16,8 +16,7 @@ class App extends React.Component {
   handleShowMore() {
     this.setState({
       showItems: 
-        this.state.showItems >= this.state.items.length ?
-          this.state.showItems : this.state.items.length
+        this.state.showItems = this.state.items.length
     })
   }
   
